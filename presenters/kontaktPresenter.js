@@ -1,0 +1,5 @@
+function KontaktPresenter() {
+    return (<>
+        <KontaktView/>
+    </>);
+}
