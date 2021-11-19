@@ -1,0 +1,34 @@
+<html>
+
+<head>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+  <script src="js/views/homeView.js" type="text/jsx"></script>
+  <script src="js/views/kontaktView.js" type="text/jsx"></script>
+  <script src="js/views/headerView.js" type="text/jsx"></script>
+  <script src="js/views/footerView.js" type="text/jsx"></script>
+
+  <script src="js/app.js" type="text/jsx"></script>
+  <script src="presenters/homePresenter.js" type="text/jsx"></script>
+  <script src="presenters/kontaktPresenter.js" type="text/jsx"></script>
+  <script src="presenters/showPresenter.js" type="text/jsx"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+
+<body>
+  <div id="app"></div>
+</body>
+
+<script type="text/jsx">
+    defaultRoute();
+
+      ReactDOM.render(<App />, document.getElementById("app"))
+   
+
+  </script>
+
+
+</html>
